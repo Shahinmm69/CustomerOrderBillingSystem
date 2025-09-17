@@ -1,0 +1,17 @@
+﻿global using Cobs.Application.Contracts.Persistence;
+global using Cobs.Application.Contracts.Services;
+global using Cobs.Infrustructure.Persistence.Context;
+global using Cobs.Infrustructure.Services;
+global using Cobs.Presentation.Common;
+global using Cobs.Presentation.Middlewares;
+global using FluentValidation;
+global using FluentValidation.AspNetCore;
+global using MediatR;
+global using Microsoft.AspNetCore.Authentication.JwtBearer;
+global using Microsoft.AspNetCore.Authorization;
+global using Microsoft.AspNetCore.Mvc;
+global using Microsoft.EntityFrameworkCore;
+global using Microsoft.IdentityModel.Tokens;
+global using System.Security.Claims;
+global using System.Text;
+global using System.Text.Json;

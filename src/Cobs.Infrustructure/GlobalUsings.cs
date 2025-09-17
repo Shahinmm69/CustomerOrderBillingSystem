@@ -1,0 +1,16 @@
+﻿global using Cobs.Application.Contracts.Persistence;
+global using Cobs.Application.Contracts.Services;
+global using Cobs.Domain.Common;
+global using Cobs.Domain.Entities;
+global using Cobs.Domain.Enums;
+global using Cobs.Infrustructure.Persistence.Constants;
+global using Cobs.Infrustructure.Persistence.Context;
+global using Microsoft.EntityFrameworkCore;
+global using Microsoft.EntityFrameworkCore.Metadata.Builders;
+global using Microsoft.Extensions.Configuration;
+global using Microsoft.Extensions.Logging;
+global using Microsoft.IdentityModel.Tokens;
+global using System.IdentityModel.Tokens.Jwt;
+global using System.Reflection;
+global using System.Security.Claims;
+global using System.Text;
